@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gifts and Merch</title>
+        <link rel="stylesheet" href="./css/normalize.css" />
+        <link rel="stylesheet" href="./css/fonts.css" />
+        <link rel="stylesheet" href="./css/styles.css" />
+    </head>
+    <body>
+        <header class="main-container page-header">
+            <button class="page-header__menu-btn show-mobile" type="button" aria-label="Открыть мобильное меню"></button>
+            <nav class="header-nav">
+                <a class="header-nav__logo-link" href="/">
+                    <picture>
+                        <source srcset="./img/add-markets-logo--mobile.svg" media="(max-width: 768px)">
+                        <img class="page-header__logo" src="./img/add-markets-logo.svg" alt="ADD MARKETS">
+                    </picture>
+                </a>
+                <ul class="header-nav__list hide-mobile">
+                    <li>
+                        <a class="header-nav__link header-nav__link--active" href="/marketplaces">Маркетплейсы</a>
+                    </li>
+                    <li>
+                        <a class="header-nav__link" href="/content">Контент</a>
+                    </li>
+                    <li>
+                        <a class="header-nav__link" href="/design">Дизайн</a>
+                    </li>
+                    <li>
+                        <a class="header-nav__link" href="/contacts">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="page-header__callback" type="button">Обратный звонок</button>
+            <a class="page-header__tel hide-mobile" href="tel:+74993445091">+7 (499) 344 60 91</a>
+        </header>
+    </body>
+</html>
